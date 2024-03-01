@@ -1,0 +1,144 @@
+body {
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: linear-gradient(#300c0c,#a5a5ad,rgba(32, 11, 11, 0.986))
+}
+#title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#site-logo{
+    width: auto;
+    height: 15vh;
+    margin:15px 22px 0 0;
+}
+#clg-name {
+    height: 150px;
+    width: 100vw;
+    background-color: #fff;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#clg-name h3,#clg-name h4{
+    margin: 0;
+    position: relative;
+    bottom: 25px;
+}
+#clg-name h4{
+    margin-top: 11px;
+}
+
+#title-container h1{
+    text-shadow: 2px 2px 4px #535151;
+}
+#clg-name h3,
+#clg-name h4{
+    text-shadow: 1px 1px 2px #535151;
+}
+nav {
+    background-color: black;
+    width: 600px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    font-size: 24px;
+    text-decoration: none;
+    position: relative;
+    color: grey;
+    cursor: pointer;
+    margin-right: 3px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+#img-collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   /*  margin-left: 5px; */
+}
+
+#img-collection > img {
+    height: 220px;
+    width: 280px;
+    padding: 8px;
+    border: 5px;
+    margin-top: 80px;
+    margin-right: 5px;
+    margin-left: 7px;
+}
+#img-collection > img:hover{
+    border-radius: 12px;
+    box-shadow: -1vw 1vw 13px 1px black ;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(14, 5, 5);
+    color: #fff;
+    padding: 20px;
+}
+
+#content-holder{
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#content-holder p {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style-image: url("c:/Users/STUDENT/Downloads/quill-drawing-a-line.png");
+}
+footer  p{
+    color: turquoise;
+    cursor: pointer;
+    
+}
+footer  p:hover{
+    color: rgb(230, 65, 188);
+    cursor: pointer;
+    
+}
+footer ul :hover{
+    color: turquoise;
+    cursor: pointer;
+}
+
+
+/* Other styles you have defined remain unchanged */
